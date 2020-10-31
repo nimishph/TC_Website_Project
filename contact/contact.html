@@ -4,51 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I_Adapt</title>
-	<link href="./styles.css" rel="stylesheet" type="text/css">
+	<link href="../home/styles.css" rel="stylesheet" type="text/css">
+	<link href="./contact.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color: skyblue; background-image: none;">
     
-    	<header class="head-section">
-		<nav class="nav-main-row">
-			<div class="logo-card w3-card-4 w4-white">
-				<img src="./images/logo.svg" alt="Product Image">
-			</div>
-			<ul class="topnav">
-				<li><button class="nav-icon-element" onclick="myFunction()"> <i class="fa fa-bars"></i></a></li>
-				<li><a href="#" class="nav-element">Home</a></li>
-				<li><a href="#" class="nav-element">Our Product</a></li>
-				<li><a href="#contact-us" class="nav-element">Contact Us</a></li>
-				<li><a href="#about-us" class="nav-element">About Us</a></li>
-				<li><a href="#" class="nav-element">Blog</a>
-				<li><a href="#" class="nav-element">Buy Product</a></li>
-			</ul>
-			<div class="dropdown">	
-				<select name="lang" class="lang-dropdown">
-					<option value="English">Choose Language</option>
-					<option value="English">English</option>
-					<option value="Hindi">Hindi</option>
-					<option value="French">French</option>
-					<option value="Spanish">Spanish</option>
-					<option value="Japanese">Japanese</option>
-				</select>
-			</div>		
-		</nav>
-
-	</header>
+    <header>
+        <p>Contact Us</p>
+    </header>
 
     <div class="row">
         <div class="w3-card-4 w3-yellow contact-card">
             <header class="w3-container w3-black card-header">
-                <h1>Contact Us</h1>
+                <h1>Contact Information</h1>
             </header>
             <div class="w3-container contact-us-content">
                 <p><a href="contact@idapt.com">contact@idapt.com</a></p>
-                <p><a href="+911237654982">+91-1237654982</a></p>
+				<p><a href="+911237654982">+91-1237654982</a></p>
+				<p>For more info please fill the given form ⟶</p>
             </div>
         </div>
-        <div class="container contact-form">
+
+		<div class="container contact-form">
             <form action="/action_page.php">
                 <label for="fname" class="label">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -69,21 +48,23 @@
         </div>
     </div>
 
-    	<footer>
+	<footer>
 		<section class="footer-section">
 			<div class="footer-row footer-logo">
 				<div class="logo-card w3-card-4 w4-white">
-					<img src="./images/logo.svg" alt="Product Image" >
+					<a href="../home/index.html">
+						<img src="../images/logo.svg" alt="Product Image">
+					</a>
 				</div>
-				<p class="footer-text">I_Adapt</p>
+				<a href="../home/index.html"><p class="footer-text">I_Adapt</p></a>
 			</div>
 			<div class="footer-row footer-navbar">
 				<div class="footer-column">
 					<h3 class="column-heading">
 						Company
 					</h3>
-					<p class="footer-text">About Us</p>
-					<a class="footer-text" href="./contact.html">Contact Us</a>
+					<a href="../about/about.html"><p class="footer-text">About Us</p></a>
+					<a href="../contact/contact.html"><p class="footer-text">Contact Us</p></a>
 				</div>
 				<div class="footer-column">
 					<h3 class="column-heading">
@@ -100,19 +81,21 @@
 						Useful Links
 					</h3>
 					<p class="footer-text">Help</p>
-					<p class="footer-text">Buy Product</p>
-					<p class="footer-text">Blog</p>
+					<a href="../checkout/checkout.html" target="blank"><p class="footer-text">Buy Product</p></a>
+					<a href="../blog/blog.html" target="blank"><p class="footer-text">Blog</p></a>
 				</div>
 			</div>
 			<div class="social-media">
 				<ul class="footer">
-					<li class="social-media-logo footer-text"><i class="fa fa-instagram"></i></li>
-					<li class="social-media-logo footer-text"><i class="fa fa-twitter"></i></li>
-					<li class="social-media-logo footer-text"><i class="fa fa-facebook"></i></li>
+					<li class="social-media-logo insta-logo footer-text"><a href="https://www.instagram.com/anujlathi/" target="blank"><i class="fa fa-instagram"></i></a></li>
+					<li class="social-media-logo footer-text"><a href="https://twitter.com/anuj_lathi" target="blank"><i class="fa fa-twitter"></i></a></li>
+					<li class="social-media-logo footer-text"><a href="https://in.linkedin.com/in/anuj-lathi-617ba2139" target="blank"><i class="fa fa-linkedin"></i></a></li>
 				</ul>
 			</div>
 		</section> 
 	</footer>
+
+
 
 </body>
 </html>
