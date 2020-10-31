@@ -128,8 +128,8 @@ iframe{
     }
 
     iframe {
-        width: 600px;
-        height: 480px;
+        width: auto;
+        height: auto;
     }
 
 }
